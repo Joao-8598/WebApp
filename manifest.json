@@ -1,5 +1,8 @@
 {
     "name": "WebApp - Portifólio",
     "short_name": "Portifólio",
-    "start_url": "/"
+    "start_url": "/",
+    "display": "standalone", //Faz o app abrir como aplicativo independente
+    "background_color": "#ffffff", //Cor de fundo no carregamento do app
+    "theme_color": "#f0f"
 }
