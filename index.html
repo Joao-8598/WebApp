@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Registro do service worker -->
-    
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+            .then(() => console.log('Service Worlker registrado'))
+            .catch((err => console.error('Erro no service Worker:', err)));
+        }
+
+    </script>
+
     <title> WebApp - Portifólio </title>
 
 </head>
