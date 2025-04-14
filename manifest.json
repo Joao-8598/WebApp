@@ -2,8 +2,8 @@
     "name": "WebApp - Portifólio",
     "short_name": "Portifólio",
     "start_url": "/",
-    "display": "standalone", //Faz o app abrir como aplicativo independente
-    "background_color": "#ffffff", //Cor de fundo no carregamento do app
+    "display": "standalone",
+    "background_color": "#ffffff",
     "theme_color": "#f0f",
     "description": "Esse é o app dos estudantes o 3 sistema 2025",
     "id": "portifolio-app",
@@ -21,6 +21,19 @@
             "size": "512x512",
             "type": "image/png"
         }
-    ]
+    ],
+
+    "orientation": "portrait",
+    "screenshots": [
+        {
+            "src": "/screenshot1.png",
+            "sizes": "320x480",
+            "type": "image.png"
+        }
+    ],
+
+    "categories": ["education"],
+    "prefer_related_aplication": false,
+    "scope": "/"
 }
 
