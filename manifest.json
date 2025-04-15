@@ -1,13 +1,13 @@
 {
-    "name": "ProfBT",
-    "short_name": "ProfBT",
+    "name": "WebApp - Portifólio",
+    "short_name": "Portifólio",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#000000",
-    "description": "Este é o app ProfBT, onde você pode acessar conteúdo interativo.",
-    "id": "profbt-app",
-    "dir": "ltr",
+    "theme_color": "#f0f",
+    "description": "Esse é o app dos estudantes o 3 sistema 2025",
+    "id": "portifolio-app",
+    "dir": "lpr",
     "lang": "pt",
     "icons": [
         {
